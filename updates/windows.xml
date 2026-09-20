@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Clipper Desktop Windows Updates</title>
+    <description>Stable Windows releases of Clipper Desktop</description>
+    <language>en</language>
 
-<rss
-    version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-
-    <channel>
-
-        <title>Clipper Desktop Windows Updates</title>
-
-        <description>
-            Stable Windows releases of Clipper Desktop
-        </description>
-
-        <language>en</language>
-
-    </channel>
-
+    <item>
+      <title>Clipper Desktop 1.0.1</title>
+      <sparkle:version>1.0.0</sparkle:version>
+      <description><![CDATA[
+        <h2>Clipper Desktop 1.1.0</h2>
+        <p>Replace this text with your release notes.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO/releases/download/v1.1.0/Clipper-Desktop-Setup-1.1.0.exe"
+        length="REPLACE_WITH_LENGTH_FROM_WINSPARKLE_TOOL"
+        type="application/octet-stream"
+        sparkle:os="windows-x64"
+        sparkle:edSignature="EdDSAPub EDDSA {"a38L5czYg/5RbnIvefUa2FTzhc/ScLkUxWGOrMFcJog="}"
+        sparkle:installerArguments="/SILENT /SP- /NOICONS" />
+    </item>
+  </channel>
 </rss>
